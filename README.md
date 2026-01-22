@@ -5,6 +5,7 @@ Scripts to load Australian G-NAF PSV data into Microsoft SQL Server and optional
 ## What's here
 - `import_psv_sqlserver.sql` — bulk loads G-NAF PSV files (Standard + Authority Code) into existing tables.
 - `convert_pk_to_nonclustered_add_cci.sql` — converts clustered PKs to nonclustered, then adds a clustered columnstore index (CCI) to each table.
+- maintains all FK constrants 
 
 ## Prerequisites
 - Microsoft SQL Server (local or remote).
