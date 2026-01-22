@@ -29,3 +29,5 @@ obj/
 *.bak
 *.log
 
+.DS_Store
+
